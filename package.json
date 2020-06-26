@@ -18,8 +18,8 @@
     "javascript"
   ],
   "dependencies": {
-    "@types/node": "^13.7.6",
-    "@types/eslint": "^6.1.8",
+    "@types/eslint": "^7.2.0",
+    "@types/node": "^14.0.14",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.5.0"
