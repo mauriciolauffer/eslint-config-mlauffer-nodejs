@@ -1,0 +1,14 @@
+name: release
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: GoogleCloudPlatform/release-please-action@v2
+        id: release
+        with:
+          release-type: node
+          package-name: eslint-config-mlauffer-nodejs
