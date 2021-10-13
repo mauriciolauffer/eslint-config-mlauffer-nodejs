@@ -22,6 +22,10 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.10.0"
   },
+  "devDependencies": {
+    "@types/eslint": "^7.28.1",
+    "@types/node": "^16.10.4"
+  },
   "peerDependencies": {
     "eslint": "^6.0.0 || ^7.0.0"
   },
@@ -31,9 +35,5 @@
   },
   "bugs": {
     "url": "https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git/issues"
-  },
-  "devDependencies": {
-    "@types/eslint": "^7.28.0",
-    "@types/node": "^16.6.1"
   }
 }
