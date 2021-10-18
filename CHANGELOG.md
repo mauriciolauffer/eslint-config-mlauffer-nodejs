@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.0.0...v1.1.0) (2021-10-18)
+
+
+### Features
+
+* Add JSDoc ([28fd380](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/28fd3800cdcd9905930175c1ff505f39d7c53f14))
+
 ## 1.0.0 (2021-08-14)
 
 
