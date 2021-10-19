@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.1.0...v1.2.0) (2021-10-19)
+
+
+### Features
+
+* Drop func-names ([c95f8e4](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/c95f8e4e03a30a78a118e978d146abc8cd949ee1))
+
 ## [1.1.0](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.0.0...v1.1.0) (2021-10-18)
 
 
