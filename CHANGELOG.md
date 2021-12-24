@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.2.0...v1.2.1) (2021-12-24)
+
+
+### Bug Fixes
+
+* tsconfig ([9a2dfbb](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/9a2dfbbfa23bf4738bb78e2346e0079b62c865eb))
+
 ## [1.2.0](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.1.0...v1.2.0) (2021-10-19)
 
 
