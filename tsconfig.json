@@ -6,9 +6,6 @@
     "noEmit": true,
     "checkJs": true,
     "allowJs": true,
-    "types": [
-      "@types/eslint",
-      "@types/node"
-    ]
+    "types": []
   }
 }
