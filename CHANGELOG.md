@@ -1,5 +1,15 @@
 # Changelog
 
+### [1.2.2](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.2.1...v1.2.2) (2022-04-22)
+
+
+### Bug Fixes
+
+* Bump dependencies ([305909d](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/305909d750bc83a4b0d31d5e5e72e9028478cad3))
+* CI/CD ([57dad4d](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/57dad4d8bb9bc84a97aa23e38afca875db0b8253))
+* CI/CD ([fdab3e3](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/fdab3e397cb06518b1ea0ba60efae9355bfab348))
+* CI/CD ([2d08c58](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/2d08c58fa4f1878587af64444dffb9248dd5862b))
+
 ### [1.2.1](https://www.github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.2.0...v1.2.1) (2021-12-24)
 
 
