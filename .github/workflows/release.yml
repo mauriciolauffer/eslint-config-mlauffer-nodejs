@@ -1,16 +1,17 @@
 name: release
 on:
   push:
-    branches: [main, master]
+    branches: [master]
 
 permissions: read-all
 
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+     pull-requests: write
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v3
-        id: release
         with:
           release-type: node
           package-name: eslint-config-mlauffer-nodejs
