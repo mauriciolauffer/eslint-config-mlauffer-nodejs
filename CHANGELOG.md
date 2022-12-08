@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.2.2...v1.3.0) (2022-12-08)
+
+
+### Features
+
+* Add anti-trojan ([#12](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/12)) ([bc2da40](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/bc2da403f654b2b05920a4338877ff0537c4b3be))
+
 ### [1.2.2](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.2.1...v1.2.2) (2022-04-22)
 
 
