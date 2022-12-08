@@ -4,6 +4,7 @@
   "description": "ESLint shareable config for Nodejs",
   "private": false,
   "author": "Mauricio Lauffer",
+  "license": "MIT",
   "main": "lib/index.js",
   "files": [
     "lib/**"
