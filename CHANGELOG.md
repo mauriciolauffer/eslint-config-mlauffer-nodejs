@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.3.0...v1.4.0) (2023-02-24)
+
+
+### Features
+
+* Bump deps + es2022 ([36001ff](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/36001ff0dc51ed9a409c85137431301a3289c645))
+
 ## [1.3.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.2.2...v1.3.0) (2022-12-08)
 
 
