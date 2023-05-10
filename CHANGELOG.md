@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.1](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.4.0...v1.4.1) (2023-05-10)
+
+
+### Bug Fixes
+
+* Bump deps ([3c29bee](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/3c29bee1afe05dda3e8771bb51aeb71d4d108f29))
+* GoogleCloudPlatform to release-please-action ([dc5b5e1](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/dc5b5e1bacc9c8f97df289e1a20645e2b2a5aef0))
+
 ## [1.4.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.3.0...v1.4.0) (2023-02-24)
 
 
