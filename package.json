@@ -21,12 +21,15 @@
   "dependencies": {
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-anti-trojan-source": "^1.1.1",
-    "eslint-plugin-jsdoc": "^44.1.0",
+    "eslint-plugin-jsdoc": "^46.5.1",
     "eslint-plugin-security": "^1.7.1",
-    "eslint-plugin-sonarjs": "^0.19.0"
+    "eslint-plugin-sonarjs": "^0.21.0"
   },
   "peerDependencies": {
     "eslint": ">=8"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
