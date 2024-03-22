@@ -5,6 +5,7 @@
   "private": false,
   "author": "Mauricio Lauffer",
   "license": "MIT",
+  "type": "module",
   "main": "lib/index.js",
   "files": [
     "lib/**"
@@ -22,18 +23,20 @@
     "nodejs"
   ],
   "dependencies": {
+    "@eslint/js": "^8.57.0",
     "@microsoft/eslint-formatter-sarif": "^3.0.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-anti-trojan-source": "^1.1.1",
-    "eslint-plugin-jsdoc": "^46.9.0",
-    "eslint-plugin-security": "^1.7.1",
-    "eslint-plugin-sonarjs": "^0.23.0"
+    "eslint-plugin-jsdoc": "^48.2.1",
+    "eslint-plugin-security": "^2.1.1",
+    "eslint-plugin-sonarjs": "^0.24.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   },
   "peerDependencies": {
-    "eslint": "^8.55.0"
+    "eslint": ">=8.57.0"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
