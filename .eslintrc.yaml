@@ -1,3 +1,0 @@
-root: true
-extends:
-  - "./lib/index.js"
