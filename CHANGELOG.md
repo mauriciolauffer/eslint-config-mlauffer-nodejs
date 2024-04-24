@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.4.6...v2.0.0) (2024-04-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* Flat config ([#35](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/35))
+
+### Features
+
+* Flat config ([#35](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/35)) ([112f285](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/112f28509b877596a0e17f240bd08310113aec90))
+
 ## [1.4.6](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.4.5...v1.4.6) (2023-12-04)
 
 
