@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.0...v2.0.1) (2024-04-24)
+
+
+### Bug Fixes
+
+* Remove rules not supported in v9 ([f6c4980](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/f6c49800d5b0ddd1c73b4412fdbd0494d3ed0ab9))
+
 ## [2.0.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v1.4.6...v2.0.0) (2024-04-24)
 
 
