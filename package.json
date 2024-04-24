@@ -13,6 +13,7 @@
   "scripts": {
     "lint": "eslint lib --cache",
     "lint:ci": "eslint lib -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
+    "format": "prettier lib --write && npm run lint -- --fix",
     "test": "npm run lint"
   },
   "keywords": [
@@ -23,17 +24,19 @@
     "nodejs"
   ],
   "dependencies": {
-    "@eslint/js": "^8.57.0",
-    "@microsoft/eslint-formatter-sarif": "^3.0.0",
-    "eslint-plugin-jsdoc": "^48.2.1",
-    "eslint-plugin-security": "^2.1.1",
-    "eslint-plugin-sonarjs": "^0.24.0"
+    "@eslint/js": "^9.1.1",
+    "@microsoft/eslint-formatter-sarif": "^3.1.0",
+    "eslint-plugin-jsdoc": "^48.2.3",
+    "eslint-plugin-security": "^3.0.0",
+    "eslint-plugin-sonarjs": "^0.25.1"
   },
   "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^20.12.7",
     "prettier": "^3.2.5"
   },
   "peerDependencies": {
-    "eslint": ">=8.57.0"
+    "eslint": ">=9"
   },
   "engines": {
     "node": ">=18"
