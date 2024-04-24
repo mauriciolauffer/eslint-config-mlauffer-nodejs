@@ -8,12 +8,12 @@
   "type": "module",
   "main": "lib/index.js",
   "files": [
-    "lib/**"
+    "lib"
   ],
   "scripts": {
     "lint": "eslint lib --cache",
     "lint:ci": "eslint lib -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
-    "format": "prettier lib --write && npm run lint -- --fix",
+    "format": "prettier . --write --cache && npm run lint -- --fix",
     "test": "npm run lint"
   },
   "keywords": [
