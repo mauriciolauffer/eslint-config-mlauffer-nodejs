@@ -7,7 +7,6 @@ My personal ESLint config for Node.js
 Using:
 
 - [eslint-config-google](https://www.npmjs.com/package/eslint-config-google)
-- [eslint-plugin-anti-trojan-source](https://www.npmjs.com/package/eslint-plugin-anti-trojan-source)
 - [eslint-plugin-jsdoc](https://www.npmjs.com/package/eslint-plugin-jsdoc)
 - [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
 - [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs)
