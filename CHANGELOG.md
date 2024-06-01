@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.2](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.1...v2.0.2) (2024-06-01)
+
+
+### Bug Fixes
+
+* Bump deps ([#40](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/40)) ([8d35492](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/8d3549293771f17346d1afbc2f2307b232b81fda))
+* Remove workaround for sonarjs ([#39](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/39)) ([da84132](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/da8413261f18e39ae4c2c262ece5467e2ff53cfe))
+
 ## [2.0.1](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.0...v2.0.1) (2024-04-24)
 
 
