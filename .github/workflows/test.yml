@@ -10,12 +10,17 @@ permissions: read-all
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18, 20, 22]
     permissions:
       security-events: write
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
         with:
+          node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci --ignore-scripts
       - run: npm test
