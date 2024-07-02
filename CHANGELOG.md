@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.3...v2.0.4) (2024-07-02)
+
+
+### Bug Fixes
+
+* peerDependencies ([#46](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/46)) ([a891bbd](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/a891bbd6320fd14a1cec30c87a76281750471085))
+
 ## [2.0.3](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.2...v2.0.3) (2024-06-17)
 
 
