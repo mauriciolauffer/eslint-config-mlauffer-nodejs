@@ -50,6 +50,11 @@
     "arm64",
     "x64"
   ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git"
