@@ -6,14 +6,15 @@
   "author": "Mauricio Lauffer",
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@9.12.2",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "scripts": {
-    "lint": "eslint lib --cache",
-    "lint:ci": "eslint lib -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
-    "format": "prettier . --write --cache && npm run lint -- --fix",
+    "lint": "prettier . --check --cache && eslint . --cache",
+    "lint:ci": "eslint . -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
+    "pretty": "prettier . --write --cache",
     "test": "vitest run"
   },
   "keywords": [
@@ -24,37 +25,26 @@
     "nodejs"
   ],
   "dependencies": {
-    "@eslint/js": "^9.10.0",
+    "@eslint/js": "^9.13.0",
     "@microsoft/eslint-formatter-sarif": "^3.1.0",
-    "eslint-plugin-jsdoc": "^50.2.2",
+    "eslint-plugin-jsdoc": "^50.4.3",
     "eslint-plugin-security": "^3.0.1",
-    "eslint-plugin-sonarjs": "^2.0.2",
-    "globals": "^15.9.0"
+    "eslint-plugin-sonarjs": "^2.0.4",
+    "globals": "^15.11.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "^0.5.4",
+    "@eslint/config-inspector": "^0.5.5",
     "@types/eslint": "^9.6.1",
-    "@types/eslint__js": "^8.42.3",
-    "@types/eslint-plugin-security": "^3.0.0",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.7.9",
     "prettier": "^3.3.3",
-    "vitest": "^2.0.5"
+    "vitest": "^2.1.3"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": ">=9"
   },
   "engines": {
     "node": ">=18"
   },
-  "cpu": [
-    "arm64",
-    "x64"
-  ],
-  "os": [
-    "darwin",
-    "linux",
-    "win32"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git"
