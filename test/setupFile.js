@@ -1,4 +1,4 @@
-import * as vitest from 'vitest';
+import * as vitest from "vitest";
 import { RuleTester } from "eslint";
 
 RuleTester.afterAll = vitest.afterAll;

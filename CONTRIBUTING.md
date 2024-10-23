@@ -37,15 +37,15 @@ All submissions, including submissions by project members, require review. The p
 
 1.  Install dependencies:
 
-        npm install
+        pnpm install
 
 2.  Lint the codebase:
 
-        npm run lint
+        pnpm run lint
 
 3.  Run the tests:
 
-        npm test
+        pnpm test
 
 ### CI/CD
 
