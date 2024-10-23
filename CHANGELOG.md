@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.5...v3.0.0) (2024-10-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* SonarJS + PNPM ([#60](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/60))
+
+### Features
+
+* SonarJS + PNPM ([#60](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/60)) ([e099739](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/e0997393797139b92a83ca84a8d6ae78a88e0375))
+
 ## [2.0.5](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.4...v2.0.5) (2024-09-10)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mlauffer-nodejs",
-  "version": "2.0.5",
+  "version": "3.0.0",
   "description": "ESLint shareable config for Nodejs",
   "private": false,
   "author": "Mauricio Lauffer",
