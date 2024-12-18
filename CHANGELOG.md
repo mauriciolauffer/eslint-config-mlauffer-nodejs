@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v3.0.0...v3.0.1) (2024-12-18)
+
+
+### Bug Fixes
+
+* Bump deps ([1a7c058](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/1a7c058414a23a264dc2f36ab5c9ac3d3e505f0a))
+
 ## [3.0.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v2.0.5...v3.0.0) (2024-10-23)
 
 
