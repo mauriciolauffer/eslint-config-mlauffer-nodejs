@@ -6,7 +6,7 @@ My personal ESLint config for Node.js
 
 Using:
 
-- [eslint-config-google](https://www.npmjs.com/package/eslint-config-google)
+- [@eslint/js](https://www.npmjs.com/package/@eslint/js)
 - [eslint-plugin-jsdoc](https://www.npmjs.com/package/eslint-plugin-jsdoc)
 - [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
 - [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs)
