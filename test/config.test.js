@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import config from "../lib/index.js";
 
-describe.skip("Config object", () => {
+describe("Config object", () => {
   it("should export rules", () => {
     const configNodejs = config[config.length - 1];
     expect(Array.isArray(config)).toBeTruthy();
