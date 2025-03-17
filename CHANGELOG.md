@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v3.0.1...v3.1.0) (2025-03-17)
+
+
+### Features
+
+* Use defineConfig + Extends ([718ae34](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/718ae348c7612050f7daa3de86d043cc3aaf20ae))
+
 ## [3.0.1](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v3.0.0...v3.0.1) (2024-12-18)
 
 
