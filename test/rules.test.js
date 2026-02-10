@@ -31,8 +31,7 @@ describe("ESLint config", () => {
         code: "import child from 'child_process'; child.exec(com);",
         errors: [
           {
-            message:
-              "Found child_process.exec() with non Literal first argument",
+            message: "Found child_process.exec() with non Literal first argument",
           },
         ],
       },
@@ -56,9 +55,7 @@ describe("ESLint config", () => {
     invalid = [
       {
         code: "var a = []; a.includes(1);",
-        errors: [
-          { message: `Review this usage of "a" as it can only be empty here.` },
-        ],
+        errors: [{ message: `Review this usage of "a" as it can only be empty here.` }],
       },
     ];
     tester.run("sonarjs/recommended/no-empty-collection", rule, {

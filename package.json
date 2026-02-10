@@ -1,44 +1,50 @@
 {
   "name": "eslint-config-mlauffer-nodejs",
   "version": "3.1.0",
-  "description": "ESLint shareable config for Nodejs",
   "private": false,
-  "author": "Mauricio Lauffer",
-  "license": "MIT",
-  "type": "module",
-  "packageManager": "pnpm@9.12.2",
-  "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "lint": "prettier . --check --cache && eslint . --cache",
-    "lint:ci": "eslint . -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
-    "pretty": "prettier . --write --cache",
-    "test": "vitest run"
-  },
+  "description": "ESLint shareable config for Nodejs",
   "keywords": [
-    "eslint",
     "config",
+    "eslint",
     "javascript",
     "node",
     "nodejs"
   ],
+  "bugs": {
+    "url": "https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git/issues"
+  },
+  "license": "MIT",
+  "author": "Mauricio Lauffer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "oxfmt --check && eslint . --cache",
+    "lint:ci": "eslint .  --cache -f @microsoft/eslint-formatter-sarif -o eslint.sarif",
+    "format": "oxfmt --write",
+    "test": "vitest run"
+  },
   "dependencies": {
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.39.2",
     "@microsoft/eslint-formatter-sarif": "^3.1.0",
-    "eslint-plugin-jsdoc": "^50.6.6",
+    "eslint-plugin-jsdoc": "^62.5.4",
     "eslint-plugin-security": "^3.0.1",
-    "eslint-plugin-sonarjs": "^3.0.2",
-    "globals": "^16.0.0"
+    "eslint-plugin-sonarjs": "3.0.5",
+    "globals": "^17.3.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "^1.0.2",
+    "@eslint/config-inspector": "^1.4.2",
     "@types/eslint": "^9.6.1",
-    "@types/node": "^22.13.10",
-    "eslint": "^9.22.0",
-    "prettier": "^3.5.3",
-    "vitest": "^3.0.8"
+    "@types/node": "^24.10.11",
+    "eslint": "^9.39.2",
+    "oxfmt": "^0.28.0",
+    "vitest": "^3.2.4"
   },
   "peerDependencies": {
     "eslint": ">=9"
@@ -46,11 +52,5 @@
   "engines": {
     "node": ">=18"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs.git/issues"
-  }
+  "packageManager": "pnpm@10.29.2"
 }
