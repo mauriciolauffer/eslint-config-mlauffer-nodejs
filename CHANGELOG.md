@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.1](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v3.1.0...v3.1.1) (2026-02-15)
+
+
+### Bug Fixes
+
+* bump deps + replace prettier with oxfmt ([#77](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/issues/77)) ([6679a7a](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/commit/6679a7a62709f7b3a39d03215faa06e4c945c46c))
+
 ## [3.1.0](https://github.com/mauriciolauffer/eslint-config-mlauffer-nodejs/compare/v3.0.1...v3.1.0) (2025-03-17)
 
 
