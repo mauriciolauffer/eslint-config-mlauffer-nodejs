@@ -11,5 +11,5 @@ jobs:
   publish:
     permissions:
       id-token: write
-      content: read
+      contents: read
     uses: mauriciolauffer/.github/.github/workflows/pnpm-publish.yml@main
