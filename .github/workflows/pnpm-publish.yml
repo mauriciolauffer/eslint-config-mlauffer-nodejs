@@ -1,6 +1,7 @@
 name: NPM Package Publish with PNPM
 
 on:
+  workflow_call:
   release:
     types: [created]
 
@@ -10,4 +11,5 @@ jobs:
   publish:
     permissions:
       id-token: write
+      content: read
     uses: mauriciolauffer/.github/.github/workflows/pnpm-publish.yml@main
